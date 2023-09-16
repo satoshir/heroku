@@ -1,0 +1,30 @@
+current directory: /Users/ikuzawasatoshi/rails_apps/HerokuApp/vendor/bundle/ruby/2.7.0/gems/psych-5.1.0/ext/psych
+/Users/ikuzawasatoshi/.rbenv/versions/2.7.7/bin/ruby extconf.rb
+checking for yaml.h... yes
+checking for yaml_get_version() in -lyaml... yes
+creating Makefile
+
+current directory: /Users/ikuzawasatoshi/rails_apps/HerokuApp/vendor/bundle/ruby/2.7.0/gems/psych-5.1.0/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20230916-21284-1ghwahp sitelibdir\=./.gem.20230916-21284-1ghwahp clean
+cd libyaml && /Library/Developer/CommandLineTools/usr/bin/make clean
+/bin/sh: line 0: cd: libyaml: No such file or directory
+make: [clean-so] Error 1 (ignored)
+
+current directory: /Users/ikuzawasatoshi/rails_apps/HerokuApp/vendor/bundle/ruby/2.7.0/gems/psych-5.1.0/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20230916-21284-1ghwahp sitelibdir\=./.gem.20230916-21284-1ghwahp
+compiling psych.c
+compiling psych_emitter.c
+compiling psych_parser.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.bundle
+
+current directory: /Users/ikuzawasatoshi/rails_apps/HerokuApp/vendor/bundle/ruby/2.7.0/gems/psych-5.1.0/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20230916-21284-1ghwahp sitelibdir\=./.gem.20230916-21284-1ghwahp install
+/usr/bin/install -c -m 0755 psych.bundle ./.gem.20230916-21284-1ghwahp
+
+current directory: /Users/ikuzawasatoshi/rails_apps/HerokuApp/vendor/bundle/ruby/2.7.0/gems/psych-5.1.0/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20230916-21284-1ghwahp sitelibdir\=./.gem.20230916-21284-1ghwahp clean
+cd libyaml && /Library/Developer/CommandLineTools/usr/bin/make clean
+/bin/sh: line 0: cd: libyaml: No such file or directory
+make: [clean-so] Error 1 (ignored)
